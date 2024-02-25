@@ -17,7 +17,7 @@ test_generator = test_datagen.flow_from_directory(
     test_dir,
     target_size=(IMG_WIDTH, IMG_HEIGHT),
     batch_size=16,
-    class_mode=None,  # Brak etykiet
+    class_mode=None,
     shuffle=False)
 
 model = load_model('model_sliwki.tf')
